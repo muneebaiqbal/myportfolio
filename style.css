@@ -314,13 +314,38 @@
       padding-left: 0;
     }
   }
-  @media (max-width:375px){
+  @media (max-width:377px){
     .navbar a {
       float: none;
       width: 100%;
     }
     .back{
       width: 148%;
+    }
+    .blank p{
+      margin-top: 1rem;
+  }
+  .card{
+    width: 3rem;
+  }
+    .footer{
+      position: relative;
+    }
+    .footer .content .box{
+      width: 100%;
+      margin-top: 20px;
+    }
+    .footer .content .middle{
+      padding-left: 0;
+    }
+  }
+  @media (max-width:367px){
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+    .back{
+      width: 154%;
     }
     .blank p{
       margin-top: 1rem;
